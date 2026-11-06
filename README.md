@@ -27,9 +27,10 @@ I spent 18 years making a 1,500-person food plant pass every audit it faced — 
 
 | | Project | What it is | Built with |
 |---|---|---|---|
-| 🎮 | **[The Phantom Grid](https://apps.apple.com/app/the-phantom-grid/id6785081612)** | Native iOS arcade game — 15 hand-built levels, enemy AI, 6 control schemes, per-level leaderboards. Designed, built, TestFlight-tested and shipped to the App Store end to end. [Play the web port →](https://jaamihasan.com/game.html) | Swift · SpriteKit · App Store Connect |
-| 🕯️ | **[The Candle](https://thecandle.io)** | Beginner-friendly futures-trading school: branded email-code sign-in, Stripe memberships, learner progress & journals in D1, daily lesson video pipeline to YouTube/TikTok/IG/FB. | Cloudflare Workers · D1 · Stripe · Resend |
-| 🖥️ | **Business HQ** · [interactive demo](https://jaamihasan.com/hq-tour.html) | My own command center: one dashboard running four businesses — lead generation, auto-posting, a print-on-demand shop, and a crypto paper-trading lab — with alerts that catch problems before they cost money. | Cloudflare Workers · D1 · Gmail API · AI-assisted review |
+| 🎮 | **[The Phantom Grid](https://apps.apple.com/app/the-phantom-grid/id6785081612)** | Native iOS arcade game — 15 hand-built levels, enemy AI, 6 control schemes, per-level leaderboards. Designed, built, TestFlight-tested and shipped to the App Store end to end. [Play the web port →](https://jaamihasan.com/game.html) · [source](https://github.com/yungking304/phantom-grid-web) | Swift · SpriteKit · App Store Connect |
+| 🕯️ | **[The Candle](https://thecandle.io)** | Beginner-friendly futures-trading school: 48 animated whiteboard lessons, practice desk, branded email-code sign-in, Stripe memberships, learner progress & journals in D1, 27 test files. [How it's built →](https://github.com/yungking304/the-candle-showcase) | Cloudflare Workers · D1 · Stripe · Resend |
+| 🖥️ | **Business HQ** · [interactive demo](https://jaamihasan.com/hq-tour.html) | My own command center: one Worker running four businesses — job search, web-agency prospecting, a print-on-demand shop, social posting — with approval queues for anything that touches the outside world. 156 tests, 80 merged PRs. [Architecture & code →](https://github.com/yungking304/business-hq-showcase) | Cloudflare Workers · D1 · Gmail API · Web Push · Claude API |
+| 🧪 | **[Ascendance Lab](https://github.com/yungking304/ascendance-lab-showcase)** | Self-running crypto paper-trading research lab: walk-forward backtests, realistic fees and slippage, fixed "gold gates" before anything is promoted, a self-healing watchdog, reports in dollars. Never places a real order. 57 tests. | Python (stdlib only) · SQLite · launchd |
 | 🌐 | **[Cerulane](https://cerulane.com)** | Website agency for local businesses, with an automated prospecting engine that finds businesses, builds a mockup, drafts the intro email, and queues it for my approval. | Cloudflare · PayPal Invoicing |
 | 🏠 | **[jaamihasan.com](https://github.com/yungking304/jaamihasan.com)** | This portfolio — multi-page Apple-style site with the game embedded in the homepage. Zero frameworks, zero build step. | HTML · CSS · JavaScript · GitHub Pages |
 
@@ -60,6 +61,7 @@ I spent 18 years making a 1,500-person food plant pass every audit it faced — 
 - 🎯 Moving into **Technical Program Management** — the same job I've done for 18 years, pointed at software.
 - 📱 Porting The Phantom Grid to Android (Unity 6) and building new levels.
 - 📈 Backtesting MGC futures strategies on 2022–2025 data, blind-testing on 2026.
+- 🧰 Making every project above readable here: each pinned repo has architecture notes, screenshots and the code that's safe to share.
 
 <p align="center">
   <a href="https://jaamihasan.com">jaamihasan.com</a> · <a href="https://www.linkedin.com/in/jaamihasan">LinkedIn</a> · <a href="https://jaamihasan.com/tap">Let's talk</a>
